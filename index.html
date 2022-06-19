@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Animals</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo" id="nav-logo">Degrande - Wymeersch</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            Animals
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+                <svg class="nav__close" id="nav-close" width=" 14" height="14" viewBox="0 0 14 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 1L1 13" stroke=var(--text-color) stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M1 1L13 13" stroke=var(--text-color) stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </div>
+            <div class="nav__btns">
+                <div class="nav__darkmode-button" id="darkmode-toggle">
+                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none">
+                        <path class="path"
+                            d="M19.0385 11.1746C18.8812 12.8768 18.2423 14.499 17.1967 15.8514C16.1511 17.2038 14.742 18.2304 13.1342 18.8112C11.5264 19.3919 9.78646 19.5027 8.11798 19.1307C6.44949 18.7587 4.92147 17.9192 3.7127 16.7104C2.50393 15.5016 1.66442 13.9736 1.29238 12.3051C0.920351 10.6366 1.03119 8.8967 1.61194 7.28891C2.19268 5.68113 3.21931 4.27198 4.57169 3.22637C5.92407 2.18076 7.54627 1.54192 9.24848 1.38462C8.25189 2.73288 7.77232 4.39407 7.89701 6.06603C8.02169 7.738 8.74234 9.30968 9.92788 10.4952C11.1134 11.6808 12.6851 12.4014 14.3571 12.5261C16.029 12.6508 17.6902 12.1712 19.0385 11.1746V11.1746Z"
+                            stroke=var(--text-color) stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 1H1V8H8V1Z" stroke=var(--text-color) stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M19 1H12V8H19V1Z" stroke=var(--text-color) stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M19 12H12V19H19V12Z" stroke=var(--text-color) stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M8 12H1V19H8V12Z" stroke=var(--text-color) stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+
+                </div>
+            </div>
+        </nav>
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__img">
+                            <svg viewBox="0 0 449 554" fill="none" class="home__blob">
+                                <path class="home__blob-yellow"
+                                    d="M375.019 214.911C405.035 229.835 427.815 260.749 439.071 294.061C450.595 327.374 450.595 363.351 445.503 398.529C440.411 433.974 430.495 468.619 409.591 495.802C388.687 522.985 357.063 542.972 323.563 550.434C289.795 557.896 253.883 552.833 224.135 538.975C194.387 525.117 170.535 502.464 146.147 477.946C122.027 453.695 97.6391 427.578 83.1671 393.999C68.9631 360.686 64.9431 319.645 83.4351 292.462C101.659 265.279 142.127 251.954 176.967 239.162C211.539 226.37 240.751 214.111 273.983 207.449C307.215 201.053 344.735 199.987 375.019 214.911Z"
+                                    fill=var(--blob-yellow) />
+                                <image class="home__blob-img" x="75" y="200"
+                                    xlink:href="assets/images/cartoonAnimals.png" />
+                            </svg>
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title"></h1>
+                            <h3 class="home__subtitle"></h3>
+                            <p class="home__description"></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script src="/js/index.js" type="text/javascript"></script>
+</body>
+
+</html>

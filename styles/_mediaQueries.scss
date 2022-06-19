@@ -1,0 +1,62 @@
+@import "_variables";
+
+/* =============== VARIABLES ===============*/
+
+/* Font size for large devices */
+@media screen and (min-width: 968px) {
+        $big-font-size: 3rem;
+        $h1-font-size: 2.25rem;
+        $h2-font-size: 1.5rem;
+        $h3-font-size: 1.25rem;
+        $normal-font-size: 1rem;
+        $small-font-size: .875rem;
+        $smaller-font-size: .813rem;
+  }
+/* =============== /VARIABLES ===============*/
+
+
+/* =============== NAVIGATION ===============*/
+
+@media screen and (max-width:767px){
+  .nav{
+    &__menu{
+      position:fixed;
+      top:-100%;
+      left:0;
+      width:100%;
+      background-color: var(--body-color-alt);
+      padding: 2rem 3rem 2.5rem;
+      box-shadow: 0 -1px 4px var(--box-shadow);
+      border-radius: 0 0 1.5rem 1.5rem ;
+      transition: .3s;
+    }
+  }
+}
+/*- SVG ANIMATION */
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+  /*- IMAGE ANIMATION */
+
+  @keyframes imageLoaderAnimation {
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+  }
+
+/*- TEXT ANIMATION */
+
+@keyframes textLoaderAnimation{
+  from{
+      opacity: 0;
+      transform: translateY(20px);
+  }to{
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
