@@ -203,15 +203,14 @@
     gap: 1rem;
   }
   &__content {
-    grid-template-columns: 3fr;
+    grid-template-columns: 100%;
     padding-top: 3.5rem;
     align-items: center;
     justify-items: center;
-    gap:0;
   }
   &__blob {
     width: max-content;
-    height: 515px;
+    height: 450px;
     fill: var(--first-color);
   }
   &__blob-yellow {

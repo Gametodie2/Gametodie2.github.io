@@ -382,17 +382,16 @@ img {
   gap: 1rem;
 }
 .home__content {
-  grid-template-columns: 3fr;
+  grid-template-columns: 100%;
   padding-top: 3.5rem;
   align-items: center;
   justify-items: center;
-  gap: 0;
 }
 .home__blob {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  height: 515px;
+  height: 450px;
   fill: var(--first-color);
 }
 .home__blob-yellow {
