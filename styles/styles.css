@@ -386,29 +386,13 @@ img {
   padding-top: 3.5rem;
   align-items: center;
   justify-items: center;
-}
-.home__social {
-  display: inline-block;
-}
-.home__social-icon {
-  font-size: 1.25rem;
-  color: var(--text-color);
-  padding: 1rem 1rem 1rem 0;
-  opacity: 0;
-  -webkit-animation: buttonLoaderAnimation 0.5s forwards 800ms;
-          animation: buttonLoaderAnimation 0.5s forwards 800ms;
-}
-.home__social-icon svg {
-  transition: 0.3s;
-}
-.home__social-icon svg:hover {
-  opacity: 0.75;
+  gap: 0;
 }
 .home__blob {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  height: 375px;
+  height: 500px;
   fill: var(--first-color);
 }
 .home__blob-yellow {

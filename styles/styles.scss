@@ -207,26 +207,11 @@
     padding-top: 3.5rem;
     align-items: center;
     justify-items: center;
-  }
-  &__social {
-    display: inline-block;
-  }
-  &__social-icon {
-    font-size: 1.25rem;
-    color: var(--text-color);
-    padding: 1rem 1rem 1rem 0;
-    opacity: 0;
-    animation: buttonLoaderAnimation 0.5s forwards 800ms;
-    svg {
-      transition: 0.3s;
-      &:hover {
-        opacity: 0.75;
-      }
-    }
+    gap:0;
   }
   &__blob {
     width: max-content;
-    height: 375px;
+    height: 500px;
     fill: var(--first-color);
   }
   &__blob-yellow {
