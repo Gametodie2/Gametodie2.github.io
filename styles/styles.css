@@ -408,7 +408,7 @@ img {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  height: 500px;
+  height: 400px;
   fill: var(--first-color);
 }
 .home__blob-yellow {
